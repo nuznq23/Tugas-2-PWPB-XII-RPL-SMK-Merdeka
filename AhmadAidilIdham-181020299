@@ -1,0 +1,26 @@
+# Tugas-2-PWPB-XII-RPL-SMK-Merdeka
+
+<?php
+   //php 7.3.0
+   $buah= 'apel';
+   $ket= ' masuk dalam kategori';
+   
+   switch($buah)
+{ 
+ case 'strawberry':
+   $kategori= $ket.' soft fruits';
+     break; 
+ case 'apel':
+   $kategori= $ket.' hard fruits';
+     break;
+ case 'jeruk' :
+   $kategori= $ket.' citrus fruits';
+     break;
+ case 'pisang':
+   $kategori= $ket.' tropical fruits';
+     break;
+ default:
+   $kategori=' belum ada dalam daftar kategori';
+ }
+ echo $buah.$kategori;
+ ?>
